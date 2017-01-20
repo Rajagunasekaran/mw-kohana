@@ -1,0 +1,472 @@
+i.iconsize {
+    font-size: 30px !important;
+}
+i.iconsize2 {
+    font-size: 25px;
+}
+.page-head > div.centerheight {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0;
+}
+.page-head > div {
+    margin: auto;
+}
+.centerheight {
+    color: #337ab7;
+    padding-top: 10px;
+}
+.aligncenter {
+    text-align: center;
+}
+.fa.fa-chevron-left {
+    font-size: 20px;
+}
+.mobpadding {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.modal .modal-header .border {
+    height: auto;
+    min-height: 35px;
+}
+.border > div {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+}
+.optionpoptitle {
+    font-weight: bold;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+.modal-lg .popup-title, .modal-dialog .popup-title {
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.popup-title {
+    font-size: 1.16em;
+    font-weight: bold;
+}
+.modal-lg .popup-title > div, .modal-dialog .popup-title > div {
+    margin: auto;
+}
+.opt-row-detail {
+    margin-bottom: 8px;
+    min-height: 30px;
+}
+.bs-example-modal-sm .pointer {
+    display: flex;
+}
+.bs-example-modal-sm .pointer > div {
+    margin: auto;
+    text-align: left;
+}
+i.iconsize2 {
+    font-size: 25px;
+}
+.bluecol {
+    color: #337ab7;
+}
+.page-head {
+    display: flex;
+    margin: 1% 0;
+}
+.uploadimage-dragndrop {
+    background-color: #f1f1f1;
+    border: 3px dashed #c1c3c5;
+    cursor: context-menu;
+    margin: 10px auto auto;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    z-index: 999 !important;
+}
+.uploadimage-dragndrop .fa-3x {
+    color: #b1b3b7;
+}
+.uploadimage-text {
+    color: #b1b3b7;
+    font-size: 20px;
+    font-weight: 600;
+}
+.uploader-div .input-file {
+    direction: ltr;
+    display: block;
+    height: 34px;
+    left: 73px;
+    margin: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 92px;
+    visibility: hidden;
+    width: 98px;
+    z-index: 16777270;
+}
+.uploader-div .imageupload {
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 480px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    z-index: 16777270;
+}
+.prefer-text {
+    margin: 10px 0;
+}
+.upload-error {
+    color: #b94d4d;
+    margin: 15px 0 0;
+}
+.upload-imgrow {
+    cursor: pointer;
+}
+i.iconsize2 {
+    font-size: 25px;
+}
+.opt-row-detail .fa {
+    color: #337ab7;
+}
+.Preview_image {
+    background: #eee none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    max-width: 100%;
+    padding: 5px;
+    width: auto;
+}
+.checkboxcolor label input[type="checkbox"], .radio label input[type="radio"] {
+    display: none;
+}
+.checkboxcolor .cr, .radio .cr {
+    border: 1px solid #a9a9a9;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    height: 1.3em;
+    position: relative;
+    width: 1.3em;
+}.checkboxcolor label input[type="checkbox"] + .cr > .cr-icon, .radio label input[type="radio"] + .cr > .cr-icon {
+    opacity: 0;
+    transform: scale(3) rotateZ(-20deg);
+    transition: all 0.3s ease-in 0s;
+}
+.checkboxcolor .cr .cr-icon, .radio .cr .cr-icon {
+    font-size: 0.8em;
+    left: 20%;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+}
+.checkboxcolor label input[type="checkbox"]:checked + .cr > .cr-icon, .radio label input[type="radio"]:checked + .cr > .cr-icon {
+    opacity: 1;
+    transform: scale(1) rotateZ(0deg);
+    color: #337AB7;
+}
+.listing-header .header-cell:first-child {
+    border-left: 1px solid #eee !important;
+    border-right: 0 none !important;
+}
+.listing-header .header-cell {
+    display: block;
+}
+.listing-header .header-cell .fa-clock-o { padding-left: 0; }
+.header-cell {
+    display: flex;
+    margin: -13px 0;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+.header-cell > div {
+    margin: auto;
+}
+.listing-header .header-cell:last-child {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-radius: 0;
+}
+.img-listing .imgRecord .checkboxcolor {
+    display: flex;
+    font-size: 18px;
+    padding: 0;
+}
+.img-listing .imgRecord .checkboxcolor label {
+    margin: auto;
+}
+.checkboxcolor label::after, .radio label::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.img-listing .imgRecord .img-info, .img-listing .imgRecord .img-tags {
+    color: #aaa;
+    float: left;
+    font-size: 12px;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.fa-ellipsis-h {
+    cursor: pointer;
+	color:#337ab7;
+}
+body {
+   /* margin-top: 50px!important;*/
+}
+.datacol {
+    color: #777;
+}
+.activedatacol {
+    color: #337ab7;
+    cursor: pointer;
+}
+#showmore-img ,#fltrshowmore-img{
+    cursor: pointer;
+    font-weight: 600;
+    padding: 10px 0;
+}
+hr {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.modal-dialog .opt-row-detail .col-xs-12.pointer, .modal-dialog .opt-row-detail .col-xs-12.pointer>div {
+    padding: 0;
+    text-align: center;
+}
+.modal-sm .pointer>div, .img-desc-part>div {
+    margin: auto;
+    text-align: left;
+}
+.modal-sm .pointer, .img-desc-part {
+    display: flex;
+}
+.modal-dialog .opt-row-detail .col-xs-12.pointer>div:nth-child(2) {
+    padding-left: 15px;
+    text-align: left;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+.pointer {
+    cursor: pointer;
+}
+.btn-fa {
+    background-color: #fff;
+    padding: 0;
+}
+.bootstrap-tagsinput pre {
+    display: none;
+}
+body.modal-open {
+    overflow: auto;
+    padding-right: 0px !important;
+}
+.modal::-webkit-scrollbar {
+    width: 0 !important;
+}
+#progressbarOuter, #mdl_progressbarOuter {
+    height: 12px;
+    border-radius: 0;
+    padding: 0;
+    margin: 6px 0;
+}
+
+
+/** 29 July Added  **/
+#mdl_popupimglibrary-modal .modal-body .identityclass1 #mdl_img_listing, #mdl_popupimglibrary-modal .modal-body #mdl_uploadListing {
+    max-height: calc(100vh - 335px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.img-listing .imgRecord .thumb-img, .img-listing .imgRecord .mdl_thumb-img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    height: 50px;
+    text-align: center;
+}
+.upload-imgrow, .mdl_upload-imgrow, .imgcheck-opt, .insert-this-img {
+    cursor: pointer;
+}
+ul.img-listing{ padding: 0; margin: 0; }
+ul.img-listing li.imgRecord {
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+ul.img-listing .imgRecordDataFrame { 
+    border: 1px solid #ddd;
+    padding: 0;
+    margin: 3px 0;
+    display: flex; 
+}
+ul.img-listing .mdl_showmore-items, ul.img-listing .mdl_fltrshowmore-items{ border: 1px solid #ddd; }
+ul.img-listing .imgRecord .imgFrame-left{
+    display: flex;
+    text-decoration: none;
+    border-right: 1px solid #ddd;
+    padding: 5px 0; 
+}
+ul.img-listing .imgRecord .imgFrame-right {
+    display: flex;
+    text-decoration: none;
+    padding: 5px 0;
+}
+ul.img-listing .imgRecord .imgFrame-left > div > div.altimgtitle,
+ul.img-listing .imgRecord .imgFrame-full > div > div.altimgtitle{ font-weight: bold; color: #666; }
+ul.img-listing .imgRecord .imgFrame-left > div > div.altimgtitle:hover,
+ul.img-listing .imgRecord .imgFrame-full > div > div.altimgtitle:hover{color: #1B9AF7;}
+ul.img-listing .imgRecord .imgFrame-full {
+    display: flex;
+    text-decoration: none;
+    padding: 5px 0;
+}
+ul.img-listing .imgRecord .imgFrame-left > div,
+ul.img-listing .imgRecord .imgFrame-right > div,
+ul.img-listing .imgRecord .imgFrame-full > div{ margin: auto; }
+ul.img-listing .imgRecord .imgFrame-full .thumb-img {
+    margin: 4px 0 !important;
+}
+.break-xr-name, .break-img-name{
+    white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    white-space: pre-wrap;       /* css-3 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+    word-break: break-word;
+    white-space: normal;
+}
+/** 29 July Added  **/
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.uploadimage-dragndrop{width:auto;}
+#progress-head #page-title.col-xs-6 {width:auto;}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+
